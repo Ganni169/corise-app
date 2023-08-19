@@ -3,9 +3,11 @@ import json
 import os
 # import yagmail
 
+
 # Load all episode data files
 episode_files = [file for file in os.listdir() if file.endswith(".json")]
 podcast_data = []
+
 
 # Load episode data from each file
 for episode_file in episode_files:
